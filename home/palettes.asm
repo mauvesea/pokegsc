@@ -319,11 +319,3 @@ ReloadSpritesNoPalettes::
 	ld a, TRUE
 	ldh [hCGBPalUpdate], a
 	jp DelayFrame
-
-LoadOverworldAttrmapPals::
-	homecall _LoadOverworldAttrmapPals
-	ret
-
-ScrollBGMapPalettes::
-	homecall _ScrollBGMapPalettes
-	ret
